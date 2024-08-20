@@ -1,7 +1,9 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    color: #f5dfbb;
+    background: #845ec2 (34,193,195);
+    background: linear-gradient(#d65db1,#ff6f91,#ff9671,#ffc75f,#f9f871);
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,7 +14,7 @@ body {
 
 /* Estilos para el contenedor principal */
 #app {
-    background-color: white;
+    background-color: #ff9770;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -20,48 +22,57 @@ body {
 
 /* Estilos para el formulario */
 form {
+    margin-right: 10px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 /* Estilos al input */
 input {
-    width: 75%;
+    color: #ff5400;
+    width: 100%;
     padding: 8px;
     margin-right: 10px;
     border: 1px solid #ddd;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
 /* Estilos al botón */
 button {
-    padding: 5px 8px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 3px;
+    padding: 5px 15px;
+    background-color: #fb6f92;
+    color: #d5bdaf;
+    border: 1px solid #d741a7;
+    border-radius: 25px;
     cursor: pointer;
+    margin-right: 10px;
+  
 }
 
 /* Estilos de la lista */
 ul {
+    column-width: 10 10px;
+    color: #ff5400;
     list-style: none;
     padding: 0;
+    border-radius: 10px;
 }
 
 /* Estilos a los elementos de la lista */
 li {
-    background-color: #f4f4f4;
+    background-color:#ff785a;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #f24b04;
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 15px;
 }
 
 /* Estilos para una tarea completada */
 li.completed {
     text-decoration: line-through;
-    color: #888;
+    color: red;
 }
