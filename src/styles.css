@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Miltonian&family=Shadows+Into+Light&display=swap');
+
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Shadows Into Light", cursive;
     color: #f5dfbb;
     background: #845ec2 (34,193,195);
     background: linear-gradient(#d65db1,#ff6f91,#ff9671,#ffc75f,#f9f871);
@@ -10,6 +12,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 20px 15px 7px #f24b04;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos para el contenedor principal */
@@ -30,6 +40,8 @@ form {
 
 /* Estilos al input */
 input {
+    font-size: 20px;
+    font-family: "Shadows Into Light", cursive;
     color: #ff5400;
     width: 100%;
     padding: 8px;
@@ -40,6 +52,8 @@ input {
 
 /* Estilos al botón */
 button {
+    font-size: 15px ;
+    font-family: "Shadows Into Light", cursive;;
     padding: 5px 15px;
     background-color: #fb6f92;
     color: #d5bdaf;
@@ -52,8 +66,9 @@ button {
 
 /* Estilos de la lista */
 ul {
+    font-size: 20px;
     column-width: 10 10px;
-    color: #ff5400;
+    color: #f7d6c4;
     list-style: none;
     padding: 0;
     border-radius: 10px;
